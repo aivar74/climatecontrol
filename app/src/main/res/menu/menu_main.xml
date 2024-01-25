@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sensor.ekranas.MainActivity">
+
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@color/design_default_color_primary"
+        android:title="Ruuter setings:"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/IP_Address"
+        android:title="IP_Address"
+
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Port_1"
+        android:title="Port address 1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Port_2"
+        android:title="Port address 2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Port_3"
+        android:title="Port address 3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Port_4"
+        android:title="Port address 4"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Port_7"
+        android:title="Port OUT 7"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Port_8"
+        android:title="Port OUT 8"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/app_bar_switch_heating1"
+        android:title="Switch"
+        android:visible="true"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/More_apps"
+        android:title="More apps"
+        app:actionLayout="@layout/switch_item" />
+    <item
+        android:id="@+id/Privacy_policy"
+        android:title="Privacy Policy"
+        app:actionLayout="@layout/switch_item" />
+</menu>
